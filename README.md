@@ -1,7 +1,7 @@
 # Configuración de Patroni con etcd local para una sola VM con Ubuntu.
-#### Probado con Ubuntu 18 y Ubuntu 20, ediciones de servidor y de escritorio
+#### Probado con Ubuntu 18 y Ubuntu 20, ediciones de servidor y de escritorio.
 
-En las instrucciones siguientes, sustituir los elementos entre < > por los valores apropiados para el servidor en el que se está trabajando. Partir de una instalación de Ubuntu 20, incluyendo PostgreSQL.
+En las instrucciones siguientes, sustituir los elementos entre < > por los valores apropiados para el servidor en el que se está trabajando. El _cluster_ se llamará `cluster1`. Partir de una instalación de Ubuntu 18 o 20, incluyendo PostgreSQL.
 
 #### Como el usuario root:
 1. Detener el _cluster_ de BDD que se levanta por omisión.
